@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from matplotlib import gridspec
 from autograd import grad as compute_grad   # The only autograd function you may ever need
 import autograd.numpy as np
-import math
 import copy
 
 def show_stationary_1func(func,**kwargs):
