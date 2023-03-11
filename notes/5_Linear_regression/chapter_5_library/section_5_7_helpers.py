@@ -139,7 +139,7 @@ class visualizer:
         num_bins = 5
         if 'num_bins' in kwargs:
             num_bins = kwargs['num_bins']
-        ax2.hist(errors, normed=True, bins=num_bins,facecolor='blue', alpha=0.5,edgecolor = 'k')
+        ax2.hist(errors, density=True, bins=num_bins,facecolor='blue', alpha=0.5,edgecolor = 'k')
         
         # label axes
         if 'xlabel' in kwargs:
