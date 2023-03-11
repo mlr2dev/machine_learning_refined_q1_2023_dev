@@ -2,6 +2,7 @@ import matplotlib.animation as animation
 from IPython.display import clear_output
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # class for illustrating regression weighting
 class weighted_regression_animation_visualizer:
