@@ -8,7 +8,7 @@ from mpl_toolkits.mplot3d import proj3d
 from matplotlib.patches import FancyArrowPatch
 from matplotlib.text import Annotation
 from mpl_toolkits.mplot3d.proj3d import proj_transform
-
+import numpy as np
 from autograd import grad as compute_grad   
 import math
 import time
